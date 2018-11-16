@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Special Elite', cursive;
+}
+
+body{
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+
+}
+
+h1{
+	font-size: 60px;
+	padding: 15px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #8CB369;
+  color: white;
+}
+
+
+.container{
+	max-width: 960px; /*so that the layout wont expand extensively in very wide displays*/
+	margin: 0 auto;
+
+}
+
+.header{
+	min-height: 100px;
+	background-color: rgb(244, 162, 89, 0.8);
+
+}
+
+.main{
+	
+	background-color: rgb(91, 142, 125, 0.8);
+	
+}
+
+
+
+img{
+	width: 100%;
+	border-radius: 15px;
+}
+
+p{
+	background-color: rgb(	245,245,245, 0.8);
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.footer{
+
+	height: 100px;
+	background-color: rgb(188, 75, 81, 0.8);
+	text-align: center;
+
+
+}
+
+.copyright{
+	font-size: 18px; 
+
+}
+
+.icons > a{
+	font-size: 60px;
+	color: black;
+}
+
+.icons > a:visited{
+	color: black;
+}
+
+
+
+
+
